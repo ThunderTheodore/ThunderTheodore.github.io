@@ -16,7 +16,7 @@ baseurl: /hello
 
 # Google tracking id
 
-#google-tracking-id: ""
+google-tracking-id: "UA-128946022-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -33,13 +33,10 @@ author: "Thunder Theodore"
 title: " Thunder Theodore "
 description: "Just 4 fun"
 keywords: "test"
-#favicon: "/img/common/favicon.ico"
 
 ################
 # Header layout #
 ################
-
-#black-favicon: "/img/common/black-lab-glass.ico"
 
 background-img: "../img/common/intro-bg.jpg"
 
