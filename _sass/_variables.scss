@@ -1,7 +1,10 @@
 // Variables
 
 // Main color
-$primary-color: #000;
+$primary-color: #080808;
+
+// Nav color
+$nav-color: #000;
 
 // Anchor color
 $secondary-color: #00cdff;
@@ -14,7 +17,7 @@ $header-text-shadow: true;
 $header-background-color: $primary-color;
 $intro-text-color: $font-color;
 $navbar-color: $font-color;
-$navbar-lg-collapse-background-color: $header-background-color;
+$navbar-lg-collapse-background-color: $nav-color;
 $navbar-lg-background: transparent;
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;
 

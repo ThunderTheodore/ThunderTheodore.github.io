@@ -33,6 +33,7 @@ author: "Thunder Theodore"
 title: " Thunder Theodore "
 description: "Just 4 fun"
 keywords: "test"
+favicon: "/img/common/favicon.ico"
 
 ################
 # Header layout #
@@ -79,7 +80,7 @@ me-img: "https://github.com/ThunderTheodore.png?size=500"
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
+color-browser: "#000"
 apple-status-bar-style: "black"
 
 ################
@@ -118,7 +119,7 @@ pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 
-disqus-shortname: ""
+utterances: True
 
 syntax-highlight: True
 
@@ -152,8 +153,8 @@ email: "ththunderstorm@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "<font color='black'>Wow, how could u find me(ฅ′ω`ฅ)</font>"
-author_blurb_image: "https://github.com/ThunderTheodore.png?size=144"
+author_blurb: "<font color='#080808'>Wow, how could u find me(ฅ′ω`ฅ)</font>"
+author_blurb_image: "https://github.com/ThunderTheodore.png?size=96.png"
 
 ##################
 # Social Buttons #
