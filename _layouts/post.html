@@ -24,7 +24,7 @@
               <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
                 {{ page.category }}
               </a>.
-              <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+              <a class="page-scroll" href="#utterances">Comments</a>
               <br />
               {% for tag in page.tags %}
                 <a class="tag" href="{{site.baseurl}}/tags/{{tag | downcase}}.html">#{{ tag }}</a>
@@ -46,9 +46,9 @@
           {% if site.author_blurb %}
           <div class="author row">
 	    {% if site.author_blurb_image contains "https://" %}
-              <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.author_blurb_image}}" alt="Me" />
+              <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.author_blurb_image}}" alt="" />
 	    {% else %}
-              <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
+              <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="" />
 	    {% endif %}
             <p class="col-xs-8 col-sm-9 col-md-10">
               {{ site.author_blurb }}
