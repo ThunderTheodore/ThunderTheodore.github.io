@@ -130,18 +130,6 @@ $(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click
 
 {% endif %}
 
-{% if site.google-tracking-id %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google-tracking-id}}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{site.google-tracking-id}}');
-  </script>
-{% endif %}
-
-
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
