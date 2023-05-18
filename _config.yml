@@ -16,7 +16,7 @@ baseurl: /hello
 
 # Google tracking id
 
-google-tracking-id: "UA-128946022-1"
+google-tracking-id: "G-V1BDX3YZGG"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
